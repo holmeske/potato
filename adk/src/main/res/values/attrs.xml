@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Triangle">
+        <attr name="rotation" format="float"/>
+        <attr name="color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="DashLine">
+        <attr name="color" format="color"/>
+    </declare-styleable>
+</resources>
