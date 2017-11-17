@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <attr name="color" format="color"/>
 
     <declare-styleable name="Triangle">
@@ -10,4 +11,5 @@
     <declare-styleable name="DashLine">
         <attr name="color"/>
     </declare-styleable>
+
 </resources>
