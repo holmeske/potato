@@ -32,6 +32,8 @@ public class DashLine extends View {
 
         int color = array.getColor(R.styleable.DashLine_color, Color.BLACK);
 
+        array.recycle();
+
         paint.setColor(color);
     }
 
@@ -42,7 +44,6 @@ public class DashLine extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-//        canvas.drawCircle(300, 300, 200, paint);
         canvas.drawLine(0, getMeasuredHeight() / 2, getMeasuredWidth(), getMeasuredHeight() / 2, paint);
     }
 }
